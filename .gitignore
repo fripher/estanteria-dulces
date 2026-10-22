@@ -1,0 +1,5 @@
+# copias viejas y archivos de trabajo
+generar_v*.py
+armar_v*.py
+__pycache__/
+*.pyc

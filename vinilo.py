@@ -8,7 +8,7 @@ import generar as g
 
 DPI = 150
 SANGRADO = 30.0          # mm por lado: 12 del canto + 18 de vuelta
-BASE, VETA, GRANO = 24, 7, 2.5     # gris del negro (0-255), contraste de la veta y del granito: bajo, para que se vea negro
+BASE, VETA, GRANO = 24, 2.5, 1.2     # gris del negro (0-255), contraste de la veta y del granito: muy bajo, casi liso
 aqui = os.path.dirname(os.path.abspath(__file__))
 salida = os.path.join(aqui, 'vinilo')
 
@@ -26,7 +26,7 @@ def ruido(h, w, alto, largo, rng):
 def textura(ancho_mm, alto_mm, semilla):
     w, h = px(ancho_mm), px(alto_mm)
     rng = np.random.default_rng(semilla)
-    v = 0.6 * ruido(h, w, 3, 400, rng) + 0.3 * ruido(h, w, 1, 120, rng) + 0.1 * ruido(h, w, 1, 30, rng)
+    v = 0.7 * ruido(h, w, 8, 600, rng) + 0.3 * ruido(h, w, 3, 250, rng)
     v = (v - v.mean()) / (v.std() + 1e-6)
     img = BASE + VETA * np.tanh(v) + GRANO * rng.standard_normal((h, w)).astype(np.float32)
     gris = np.clip(img, 0, 255).astype(np.uint8)

@@ -1,0 +1,8 @@
+{
+  "accion": "importar_svg",
+  "args": {
+    "svg": "Corte MDF 12mm platina union fondo.svg",
+    "nombre": "Estanteria 140 - platina union fondo",
+    "ancho_mm": "100"
+  }
+}

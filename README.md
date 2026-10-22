@@ -14,3 +14,17 @@ y bisagra integrada.
 - `armar_fripher3d.py`, `poner_cdr.py`, `poner_todo.ps1`: integración con CorelDRAW (solo Windows).
 
 Medidas en mm. Colores en los SVG: rojo = corte, azul = grabado, verde = nombres (no se cortan).
+
+## Puente nube ↔ PC (`puente/`)
+
+Para trabajar desde una sesión en la nube con CorelDRAW en el PC. GitHub hace de buzón:
+la nube deja órdenes en `puente/ordenes/` y `puente/puente_pc.py` (en el PC) las revisa cada 30 s,
+las ejecuta y sube el resultado a `puente/resultados/`.
+
+- Solo hace las acciones de la lista `ACCIONES` (ping, documentos, listar_vectores, importar_svg,
+  abrir_cdr, exportar_png, captura_corel, poner_todo). Nunca comandos libres ni el láser.
+- Solo toca documentos que empiezan por `Estanteria 140 - ` y SVG que están dentro del repo.
+- Si el repo es público no sube capturas de pantalla.
+- Encender en el PC: doble clic en `puente/INICIAR PUENTE.bat` (deja la ventana abierta).
+- Mandar una orden desde la nube: `python puente/orden.py ping`, luego commit y push;
+  ver el resultado: `git pull` y `python puente/orden.py --ver`.

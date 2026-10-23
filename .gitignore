@@ -7,3 +7,4 @@ __pycache__/
 # cámara del láser: fotos del taller y cortes, solo en el PC
 camara_laser/datos/
 camara_laser/salida/
+camara_laser/config.json

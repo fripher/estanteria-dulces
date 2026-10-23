@@ -23,7 +23,7 @@ aqui = os.path.dirname(os.path.abspath(__file__))
 trabajo = os.environ.get('CAMARA_LASER_TRABAJO', aqui)     # la prueba simulada usa otra carpeta
 datos = os.path.join(trabajo, 'datos')
 salida = os.path.join(trabajo, 'salida')
-CONFIG = os.path.join(aqui, 'config.json')
+CONFIG = os.path.join(aqui, 'config.json')             # solo en este PC (no va a GitHub); sale del ejemplo
 DICCIONARIO = cv2.aruco.DICT_4X4_50
 DEFECTO = {
     'camara': 'http://192.168.1.50:8080/photo.jpg',   # IP Webcam; también 0 (cámara USB) o la ruta de una foto
@@ -43,6 +43,11 @@ COLOR_DXF = {'corte': 1, 'grabado': 5, 'marco': 6, 'patron': 7}
 
 def cfg():
     c = dict(DEFECTO)
+    ejemplo = os.path.join(aqui, 'config_ejemplo.json')
+    if not os.path.isfile(CONFIG) and os.path.isfile(ejemplo) and trabajo == aqui:
+        import shutil
+        shutil.copy(ejemplo, CONFIG)
+        print('Creé config.json: ábrelo con el Bloc de notas y pon la dirección del celular y la altura.')
     if os.path.isfile(CONFIG):
         with open(CONFIG, encoding='utf-8') as f:
             c.update(json.load(f))

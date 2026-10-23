@@ -45,7 +45,8 @@ Doble clic en **`1 INSTALAR (una vez).bat`**. Debe terminar sin letras rojas de 
 - Pista: un brazo articulado de celular, un trípode con brazo horizontal, o un listón atornillado a la pared.
 
 ### 4. Configuración (`config.json`)
-Ábrelo con el Bloc de notas y cambia solo esto:
+Se crea solo la primera vez que usas cualquiera de los botones (es una copia de `config_ejemplo.json` y se queda
+solo en tu PC). Ábrelo con el Bloc de notas y cambia solo esto:
 
 | Dato | Qué poner |
 |---|---|

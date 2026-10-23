@@ -1,0 +1,8 @@
+{
+  "accion": "importar_svg",
+  "args": {
+    "svg": "Corte acrilico negro 3mm forro exterior costados.svg",
+    "nombre": "Estanteria 140 - forro costados CORREGIDO",
+    "ancho_mm": "1200"
+  }
+}

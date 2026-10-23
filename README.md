@@ -28,3 +28,9 @@ las ejecuta y sube el resultado a `puente/resultados/`.
 - Encender en el PC: doble clic en `puente/INICIAR PUENTE.bat` (deja la ventana abierta).
 - Mandar una orden desde la nube: `python puente/orden.py ping`, luego commit y push;
   ver el resultado: `git pull` y `python puente/orden.py --ver`.
+
+## Cámara para el láser (`camara_laser/`)
+
+Programa para acomodar piezas en los retazos que estén sobre la cama del láser, usando un celular viejo como
+cámara (app IP Webcam). Calibra con un patrón que graba el mismo láser y entrega un DXF para RDWorks.
+Instrucciones paso a paso en `camara_laser/README.md`.

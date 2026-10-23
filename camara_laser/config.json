@@ -1,0 +1,20 @@
+{
+  "camara": "http://192.168.1.50:8080/photo.jpg",
+  "cama_ancho_mm": 1300,
+  "cama_alto_mm": 900,
+  "marcador_mm": 70,
+  "marcador_borde_mm": 70,
+  "camara_altura_mm": 1000,
+  "grosor_patron_mm": 1,
+  "resolucion_mm": 1.0,
+  "margen_mm": 4,
+  "separacion_mm": 3,
+  "rotaciones": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "umbral": 22,
+  "retazo_min_cm2": 20
+}

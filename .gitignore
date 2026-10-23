@@ -3,3 +3,7 @@ generar_v*.py
 armar_v*.py
 __pycache__/
 *.pyc
+
+# cámara del láser: fotos del taller y cortes, solo en el PC
+camara_laser/datos/
+camara_laser/salida/

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200mm" height="900mm" viewBox="0 0 1200 900">
+<title>Forro exterior costados - acrilico negro 3 mm (2 piezas)</title>
+<rect x="0" y="0" width="1200" height="900" fill="none" stroke="#B0B0B0" stroke-width="0.5"/>
+<path d="M6.000,591.225 L606.000,591.225 L606.000,6.000 L451.000,6.000 L6.000,481.000 L6.000,591.225 Z M6.000,1184.449 L606.000,1184.449 L606.000,599.225 L451.000,599.225 L6.000,1074.225 L6.000,1184.449 Z" fill="none" stroke="#FF0000" stroke-width="0.1"/>
+<text x="306" y="299" font-size="14" fill="#00A000" text-anchor="middle">FORRO COSTADO 1</text>
+<text x="306" y="892" font-size="14" fill="#00A000" text-anchor="middle">FORRO COSTADO 2 (se voltea)</text>
+</svg>

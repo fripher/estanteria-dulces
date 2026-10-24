@@ -1,0 +1,8 @@
+{
+  "accion": "importar_svg",
+  "args": {
+    "svg": "escalera armada afuera/ESCUADRAS de armado MDF 12mm (16).svg",
+    "nombre": "Estanteria 140 - ESCUADRAS BIEN (60.2 cm)",
+    "ancho_mm": "602"
+  }
+}

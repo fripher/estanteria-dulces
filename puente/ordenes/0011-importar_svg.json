@@ -1,0 +1,8 @@
+{
+  "accion": "importar_svg",
+  "args": {
+    "svg": "escalera armada afuera/TOPES NEGROS que tapan el neon (acrilico negro 2mm).svg",
+    "nombre": "Estanteria 140 - TOPES NEGROS que tapan el neon (USAR ESTE)",
+    "ancho_mm": "686.5"
+  }
+}

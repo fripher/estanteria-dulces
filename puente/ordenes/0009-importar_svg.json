@@ -1,0 +1,8 @@
+{
+  "accion": "importar_svg",
+  "args": {
+    "svg": "escalera armada afuera/SOPORTE NUEVO con ranuras LED (con pestanas al fondo) - 59.6 x 55.0 cm.svg",
+    "nombre": "Estanteria 140 - SOPORTE con ranuras LED (USAR ESTE)",
+    "ancho_mm": "596"
+  }
+}

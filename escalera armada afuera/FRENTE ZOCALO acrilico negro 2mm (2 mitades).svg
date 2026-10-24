@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="699.2mm" height="200.0mm" viewBox="0 0 699.2 200.0">
+<title>Frente del zocalo en acrilico negro 2 mm: 2 mitades de 68.72 x 9.0 cm (tapa zocalo, union y hace de tope del piso 1)</title>
+<path d="M6,6.0 L693.2,6.0 L693.2,96.0 L6,96.0 Z M6,104.0 L693.2,104.0 L693.2,194.0 L6,194.0 Z" fill="none" stroke="#FF0000" stroke-width="0.1"/>
+<text x="350" y="51" font-size="9" fill="#00A000" text-anchor="middle">FRENTE ZOCALO IZQ (arriba = tope)</text>
+<text x="350" y="149" font-size="9" fill="#00A000" text-anchor="middle">FRENTE ZOCALO DER (arriba = tope)</text>
+</svg>

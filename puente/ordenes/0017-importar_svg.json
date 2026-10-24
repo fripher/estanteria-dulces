@@ -1,0 +1,8 @@
+{
+  "accion": "importar_svg",
+  "args": {
+    "svg": "escalera armada afuera/FRENTE ZOCALO acrilico negro 2mm (2 mitades).svg",
+    "nombre": "Estanteria 140 - FRENTE ZOCALO negro",
+    "ancho_mm": "687.3"
+  }
+}

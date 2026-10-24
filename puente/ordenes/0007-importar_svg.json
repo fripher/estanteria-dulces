@@ -1,0 +1,8 @@
+{
+  "accion": "importar_svg",
+  "args": {
+    "svg": "escalera armada afuera/MOLDES MDF 12mm costados falsos y galgas.svg",
+    "nombre": "Estanteria 140 - MOLDES escalera MDF 12",
+    "ancho_mm": "1200"
+  }
+}

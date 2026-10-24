@@ -1,0 +1,8 @@
+{
+  "accion": "importar_svg",
+  "args": {
+    "svg": "escalera armada afuera/SOPORTE NUEVO con huecos LED - 58.7 x 55.0 cm.svg",
+    "nombre": "Estanteria 140 - SOPORTE NUEVO con huecos LED",
+    "ancho_mm": "587"
+  }
+}

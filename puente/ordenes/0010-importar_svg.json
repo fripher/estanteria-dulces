@@ -1,0 +1,8 @@
+{
+  "accion": "importar_svg",
+  "args": {
+    "svg": "escalera armada afuera/CENEFAS acrilico negro 2mm (8 tiras).svg",
+    "nombre": "Estanteria 140 - CENEFAS negras para el neon",
+    "ancho_mm": "686.5"
+  }
+}

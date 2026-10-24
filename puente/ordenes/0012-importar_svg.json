@@ -1,0 +1,8 @@
+{
+  "accion": "importar_svg",
+  "args": {
+    "svg": "escalera armada afuera/SOPORTE con paso de NEON bajo los pisos.svg",
+    "nombre": "Estanteria 140 - SOPORTE paso NEON bajo pisos (USAR ESTE)",
+    "ancho_mm": "596"
+  }
+}

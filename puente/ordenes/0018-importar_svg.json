@@ -1,0 +1,8 @@
+{
+  "accion": "importar_svg",
+  "args": {
+    "svg": "escalera armada afuera/LAMINA NEGRA 2mm 120x180 (todas las piezas negras).svg",
+    "nombre": "Estanteria 140 - LAMINA NEGRA 120x180 todas las piezas",
+    "ancho_mm": "1800"
+  }
+}
